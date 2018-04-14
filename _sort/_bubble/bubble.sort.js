@@ -7,7 +7,9 @@
 
 const unsortedArray = [41, 12, 34, 10, 6, 40, 39];
 const lessOne = value => value - 1;
+const plusOne = value => value + 1;
 let no_of_exexcution = 0;
+let leftMostPivot = 0;
 
 // single time running - need to run n times
 const bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) => {
@@ -21,9 +23,10 @@ const bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) 
 		 swapped = true;
 	}
 
-	if(rightPointer <= 1 && !swapped) {
+	if(lessOne(list.length) <= plusOne(leftMostPivot)) {
 		return list;
-	} else if(leftPointer === 0) {
+	} else if(leftPointer === leftMostPivot) {
+		leftMostPivot = plusOne(leftMostPivot);
 		return bubbleSort(list);
 	} else {
 		return bubbleSort(list, swapped, leftPointer);
