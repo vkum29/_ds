@@ -1,5 +1,5 @@
 .vs_code
 .DS_Store
-temp
+*temp*
 .bkp.*
 node_modules
