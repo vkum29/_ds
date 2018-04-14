@@ -7,10 +7,11 @@
 
  const unsortedArray = [41, 12, 34, 10, 6, 40, 39];
  const lessOne = value => value - 1;
-
+ let no_of_exexcution = 0;
 
 // single time running - need to run n times
 const bubbleSort = (list, pivotAt = lessOne(list.length), rightPointer = lessOne(list.length)) => {
+	no_of_exexcution++;
 
 	if(rightPointer <= 0 && pivotAt <= 0) {
 		return list;
@@ -39,4 +40,5 @@ const logger = method => {
 	}
 }
 
-const sortedArray = logger(bubbleSort)([...unsortedArray]);
+logger(bubbleSort)([...unsortedArray]);
+console.log(`Total Operations on array of length ${unsortedArray.length} is ${no_of_exexcution}`);
