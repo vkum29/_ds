@@ -5,28 +5,29 @@
 	complexity: O(n^2)
 */
 
- const unsortedArray = [41, 12, 34, 10, 6, 40, 39];
- const lessOne = value => value - 1;
- let no_of_exexcution = 0;
+const unsortedArray = [41, 12, 34, 10, 6, 40, 39];
+const lessOne = value => value - 1;
+let no_of_exexcution = 0;
 
 // single time running - need to run n times
-const bubbleSort = (list, pivotAt = lessOne(list.length), rightPointer = lessOne(list.length)) => {
-	no_of_exexcution++;
+const bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) => {
 
-	if(rightPointer <= 0 && pivotAt <= 0) {
-		return list;
-	}
+	no_of_exexcution++;
 
 	let leftPointer = lessOne(rightPointer);
 
-	if (!rightPointer) {
-			pivotAt = lessOne(pivotAt);
-			leftPointer = undefined;
-	} else if(list[leftPointer] > list[rightPointer]) {
+	if (rightPointer && (list[leftPointer] > list[rightPointer])) {
 		 list.splice(leftPointer, 2, list[rightPointer], list[leftPointer]);
+		 swapped = true;
 	}
 
-	return bubbleSort(list, pivotAt, leftPointer);
+	if(rightPointer <= 1 && !swapped) {
+		return list;
+	} else if(leftPointer === 0) {
+		return bubbleSort(list);
+	} else {
+		return bubbleSort(list, swapped, leftPointer);
+	}
 }
 
 
