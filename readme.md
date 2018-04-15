@@ -13,17 +13,17 @@ A way to rearrange raw information (data) in orderly format.
 - [Selection sort](./_sort/_selection)
 - [Bubble sort](./_sort/_bubble)
 
-[See more about sort in _sort/readme.md](./_sort/readme.md)
+[See more about sort in _sort/readme.md](./_sort)
 
 
 ## Searching
 A way to find a particular information from given data set.
 
-[See more about search in _search/readme.md](./_search/readme.md)
+[See more about search in _search/readme.md](./_search)
 
 
 ## License
-[MIT](docs/License.md)
+[MIT](_docs/License.md)
 
 ## Contributions
-[Contribution guidelines for this project](docs/contribution.md)
+[Contribution guidelines for this project](_docs/contribution.md)
