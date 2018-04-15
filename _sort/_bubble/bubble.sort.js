@@ -6,17 +6,14 @@
 	complexity: O(n^2)
 */
 
-const unsortedArray = [41, 12, 34, 10, 6, 40, 39];
-const lessOne = value => value - 1;
-const plusOne = value => value + 1;
-let no_of_exexcution = 0;
+
+const utils = require('../../_utils');
+const {lessOne, plusOne, logger, iterations, swaps} = utils;
+
 let leftMostPivot = 0;
 
 // single time running - need to run n times
-const bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) => {
-
-	no_of_exexcution++;
-
+let bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) => {
 	let leftPointer = lessOne(rightPointer);
 
 	if (rightPointer && (list[leftPointer] > list[rightPointer])) {
@@ -34,16 +31,7 @@ const bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) 
 	}
 }
 
-
-
-const logger = method => {
-	return (list) => {
-		console.log(' input for method ', list);
-		const result = method(list);
-		console.log(' output for method ', result);
-		return result;
-	}
-}
-
+const unsortedArray = [41, 12, 34, 10, 6, 40, 39];
+bubbleSort = iterations.increment(bubbleSort);
 logger(bubbleSort)([...unsortedArray]);
-console.log(`Total Operations on array of length ${unsortedArray.length} is ${no_of_exexcution}`);
+console.log(`Total Operations on array of length ${unsortedArray.length} is ${iterations.get()}`);
