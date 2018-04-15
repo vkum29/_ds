@@ -17,7 +17,7 @@ Easy to understand and implement but requires n^2 operations to sort data.
 After each iteration, one less element (the last/first one) is needed to be compared until there are no more elements left to be compared.
 
 ### Implementation
-[See ./bubble.sort.js](bubble.sort.js)
+[See ./bubble.sort.js v1.0](bubble.sort.js)
 
 ### BubbleSort wiki
 [External link to Bubble sort wikipedia]https://en.wikipedia.org/wiki/Bubble_sort

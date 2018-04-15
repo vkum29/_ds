@@ -2,6 +2,7 @@
 	filename: bubble.sort.js
 	author: Vj
 	goal: minimal/optimal code to perform bubble sort
+	version: 1.0
 	complexity: O(n^2)
 */
 
