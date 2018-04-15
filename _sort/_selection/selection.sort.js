@@ -7,15 +7,12 @@
 	swap: O(n)
 */
 
-const unsortedArray = [1, 2, 3, 4, 5, 6, 7];
-const lessOne = value => value - 1;
-const plusOne = value => value + 1;
-let no_of_exexcution = 0;
+const utils = require('../../_utils');
+const { plusOne, lessOne, logger, iterations, swaps } = utils;
 
 // single time running - need to run n times
-const selectionSort = (list, leftPivot = 0) => {
+let selectionSort = (list, leftPivot = 0) => {
 
-	no_of_exexcution++;
 	// find smallest elements
 	const minAt = getSmallestItemPosition(list, leftPivot);
 	const nextPivot = plusOne(leftPivot);
@@ -26,9 +23,7 @@ const selectionSort = (list, leftPivot = 0) => {
 
 }
 
-const getSmallestItemPosition = (list, pointer, smallItemAt=pointer) => {
-
-	no_of_exexcution++;
+let getSmallestItemPosition = (list, pointer, smallItemAt=pointer) => {
 
 	const nextPointer = plusOne(pointer);
 
@@ -37,15 +32,9 @@ const getSmallestItemPosition = (list, pointer, smallItemAt=pointer) => {
 	return nextPointer >= lessOne(list.length) ? smallItemAt : getSmallestItemPosition(list, nextPointer, smallItemAt);
 }
 
-
-const logger = method => {
-	return (list) => {
-		console.log(' input for method ', list);
-		const result = method(list);
-		console.log(' output for method ', result);
-		return result;
-	}
-}
-
+const unsortedArray = [41, 12, 34, 10, 6, 40, 39];
+selectionSort = iterations.increment(selectionSort);
+getSmallestItemPosition = iterations.increment(getSmallestItemPosition);
+selectionSort = swaps.increment(selectionSort);
 logger(selectionSort)([...unsortedArray]);
-console.log(`Total iterations on array of length ${unsortedArray.length} is ${no_of_exexcution}`);
+console.log(`Total iterations on array of length ${unsortedArray.length} is ${iterations.get()}, swaps ${swaps.get()}`);
