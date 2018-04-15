@@ -1,11 +1,11 @@
 # Sorting
 A way to rearrange raw information (data) in orderly format.
 
-| Algorithm       | Status              | URLs                                   |
-| --------------- | ------------------- |--------------------------------------- |
-| Selection sort  | Implemented (v1.0)  |[Selection sort](./_sort/_selection)    |
-| Bubble sort     | Implemented (v1.0)  |[Bubble sort](./_sort/_bubble)          |
-| Insertion sort  | WIP         (v1.0)  |[Insertion sort](./_sort/_insertion)    |
+| Algorithm                               | Version | Status       |
+| --------------------------------------- | ------- | ------------ |
+| [Selection sort](./_selection)          | 1.0     | Implemented  |
+| [Bubble sort](./_bubble)                | 1.0     | Implemented  |
+| [Insertion sort](./_insertion)          | 1.0     | WIP          |
 
 ## Also see search
 A way to find a particular information from given data set.

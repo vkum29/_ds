@@ -3,8 +3,8 @@
 	author: Vj
 	goal: minimal/optimal code to perform insertion sort
 	version: 1.0
-	complexity: O(n^2)
-	swap: O(n)
+	complexity: -
+	swap: -
 */
 
 const unsortedArray = [1, 2, 3, 4, 5, 6, 7];
