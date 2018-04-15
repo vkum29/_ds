@@ -1,29 +1,33 @@
 # Data Structure (_ds)
-An attempt to learn and clear the concepts of Data structure
+An attempt to learn and clear the concepts of Data structure.
+Any code written is in javascript.
 
-## Sorting
+## Sorting [WIP]
 A way to rearrange raw information (data) in orderly format.
 
-| algorithm       | Status        |
-| --------------- | ------------- |
-| Selection sort  | Implemented   |
-| Bubble sort     | Implemented   |
+| Algorithm                                     | Version | Status       |
+| --------------------------------------------- | ------- | ------------ |
+| [Selection sort](./_sort/_selection)          | 1.0     | Implemented  |
+| [Bubble sort](./_sort/_bubble)                | 1.0     | Implemented  |
+| [Insertion sort](./_sort/_insertion)          | 1.0     | WIP          |
 
-### algorithm urls
-- [Selection sort](./_sort/_selection)
-- [Bubble sort](./_sort/_bubble)
+[See more about sort in _sort](./_sort)
 
-[See more about sort in _sort/readme.md](./_sort)
-
-
-## Searching
+## Searching [Not Started]
 A way to find a particular information from given data set.
 
-[See more about search in _search/readme.md](./_search)
-
+[See more about search in _search](./_search)
 
 ## License
 [MIT](_docs/License.md)
 
 ## Contributions
 [Contribution guidelines for this project](_docs/contribution.md)
+
+## Contributors
+
+| Contribution                                   | Contributors                            |
+| ---------------------------------------------- | --------------------------------------- |
+| Selection sort [docs, Initial Implementation ] | [Vj](https://github.com/vkum29)         |
+| Bubble sort [docs, Initial Implementation ]    | [Vj](https://github.com/vkum29)         |
+| Insertion sort [docs, Initial Implementation ] | [Vj](https://github.com/vkum29)         |

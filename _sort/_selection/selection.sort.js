@@ -2,6 +2,7 @@
 	filename: selection.sort.js
 	author: Vj
 	goal: minimal/optimal code to perform selection sort
+	version: 1.0
 	complexity: O(n^2)
 	swap: O(n)
 */

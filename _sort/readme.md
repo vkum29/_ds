@@ -1,11 +1,11 @@
 # Sorting
 A way to rearrange raw information (data) in orderly format.
 
-## bubble sort - O(n^2)
-[See more about bubble sort in _bubble/readme.md](./_bubble)
-
-## Selection sort - O(n^2)
-[See more about selection sort in _selection/readme.md](./_selection)
+| Algorithm                               | Version | Status       |
+| --------------------------------------- | ------- | ------------ |
+| [Selection sort](./_selection)          | 1.0     | Implemented  |
+| [Bubble sort](./_bubble)                | 1.0     | Implemented  |
+| [Insertion sort](./_insertion)          | 1.0     | WIP          |
 
 ## Also see search
 A way to find a particular information from given data set.
