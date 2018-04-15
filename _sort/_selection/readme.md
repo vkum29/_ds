@@ -12,7 +12,10 @@ This process is repeated over till all elements are sorted.
 ## Swaps O(n)
 
 ### Implementation
-See ./selection.sort.js
+[See ./selection.sort.js](selection.sort.js)
 
 ### SelectionSort wiki
-https://en.wikipedia.org/wiki/Selection_sort
+[External link to Selection sort wikipedia]https://en.wikipedia.org/wiki/Selection_sort
+
+### Other Sorting
+[See other sorting algorithm](../)
