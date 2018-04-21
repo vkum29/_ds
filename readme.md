@@ -1,6 +1,11 @@
 # Data Structure (_ds)
+
+## Aim
 An attempt to learn and clear the concepts of Data structure.
 Any code written is in javascript.
+
+## Data structure
+Data structure is way to organize data to increase efficiency of any operation(e.g. find,update,insert, delete) on the data.
 
 ## Sorting [WIP]
 A way to rearrange raw information (data) in orderly format.
@@ -9,7 +14,10 @@ A way to rearrange raw information (data) in orderly format.
 | --------------------------------------------- | ------- | ------------ |
 | [Selection sort](./_sort/_selection)          | 1.0     | Implemented  |
 | [Bubble sort](./_sort/_bubble)                | 1.0     | Implemented  |
-| [Insertion sort](./_sort/_insertion)          | 1.0     | WIP          |
+| [Insertion sort](./_sort/_insertion)          | 1.0     | Implemented  |
+| [Heap sort](./_heap)                          | 1.0     | WIP          |
+| [Merge sort](./_merge)                        | 1.0     | Not started  |
+| [Quick sort](./_heap)                         | 1.0     | Not started  |
 
 [See more about sort in _sort](./_sort)
 
@@ -31,3 +39,4 @@ A way to find a particular information from given data set.
 | Selection sort [docs, Initial Implementation ] | [Vj](https://github.com/vkum29)         |
 | Bubble sort [docs, Initial Implementation ]    | [Vj](https://github.com/vkum29)         |
 | Insertion sort [docs, Initial Implementation ] | [Vj](https://github.com/vkum29)         |
+| Heap sort [docs, Initial Implementation ]      | [Vj](https://github.com/vkum29)         |

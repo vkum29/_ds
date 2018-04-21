@@ -3,8 +3,8 @@
 	author: Vj
 	goal: minimal/optimal code to perform insertion sort
 	version: 1.0
-	complexity: -
-	swap: -
+	Worst case: O(n^2) -
+	Best case: O(n) -
 */
 
 const utils = require('../../_utils');
