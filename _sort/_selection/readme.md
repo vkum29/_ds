@@ -8,8 +8,20 @@ This process is repeated over till all elements are sorted.
 - i.e can be done by Swap unordered left item
 - Repeat above steps till all elements are sorted.
 
-## Complexity O(n^2)
-## Swaps O(n)
+## Performance
+| Case        | Operations(Comparison, swaps) |
+| ----------- | ----------------------------- |
+| Worst       | O(n^2), O(n)                  |
+| Average     | O(n^2), O(n)                  |
+| Best        | O(n^2), O(n)                  |
+| Auxiliary   | O(1)                          |
+
+## Characteristics
+| Type       | Yes/No    |
+| ---------- | --------- |
+| In Place   | Yes       |
+| Stable     | No        |
+| Adaptive   | No        |
 
 ### Implementation
 [See ./selection.sort.js v1.0](selection.sort.js)

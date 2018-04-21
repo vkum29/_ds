@@ -3,8 +3,8 @@
 	author: Vj
 	goal: minimal/optimal code to perform selection sort
 	version: 1.0
-	complexity: O(n^2)
-	swap: O(n)
+	Worst(Comparison, swaps): O(n^2), O(n)
+	Best(Comparison, swaps): O(n^2), O(n)
 */
 
 const utils = require('../../_utils');

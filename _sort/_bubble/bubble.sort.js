@@ -3,7 +3,8 @@
 	author: Vj
 	goal: minimal/optimal code to perform bubble sort
 	version: 1.0
-	complexity: O(n^2)
+	Worst case: O(n^2) -
+	Best case: O(n)
 */
 
 
