@@ -16,8 +16,8 @@ A way to rearrange raw information (data) in orderly format.
 | [Bubble sort](./_sort/_bubble)                | 1.0     | Implemented  |
 | [Insertion sort](./_sort/_insertion)          | 1.0     | Implemented  |
 | [Heap sort](./_heap)                          | 1.0     | Implemented  |
-| [Merge sort](./_merge)                        | 1.0     | Not started  |
-| [Quick sort](./_heap)                         | 1.0     | Not started  |
+| [Merge sort](./_merge)                        | 1.0     | Implemented  |
+| [Quick sort](./_quick)                        | 1.0     | Not started  |
 
 [See more about sort in _sort](./_sort)
 
@@ -40,3 +40,4 @@ A way to find a particular information from given data set.
 | Bubble sort [docs, Initial Implementation ]    | [Vj](https://github.com/vkum29)         |
 | Insertion sort [docs, Initial Implementation ] | [Vj](https://github.com/vkum29)         |
 | Heap sort [docs, Initial Implementation ]      | [Vj](https://github.com/vkum29)         |
+| Merge sort [docs, Initial Implementation ]     | [Vj](https://github.com/vkum29)         |

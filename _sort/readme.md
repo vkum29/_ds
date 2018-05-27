@@ -17,8 +17,8 @@ If the algorithm takes into account already sorted items and doesn't do unnecess
 | [Bubble sort](./_bubble)                | 1.0     | Implemented  |
 | [Insertion sort](./_insertion)          | 1.0     | Implemented  |
 | [Heap sort](./_heap)                    | 1.0     | Implemented  |
-| [Merge sort](./_merge)                  | 1.0     | Not started  |
-| [Quick sort](./_heap)                   | 1.0     | Not started  |
+| [Merge sort](./_merge)                  | 1.0     | Implemented  |
+| [Quick sort](./_quick)                  | 1.0     | Not started  |
 
 ## Also see search
 A way to find a particular information from given data set.
