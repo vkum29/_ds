@@ -15,7 +15,7 @@ A way to rearrange raw information (data) in orderly format.
 | [Selection sort](./_sort/_selection)          | 1.0     | Implemented  |
 | [Bubble sort](./_sort/_bubble)                | 1.0     | Implemented  |
 | [Insertion sort](./_sort/_insertion)          | 1.0     | Implemented  |
-| [Heap sort](./_heap)                          | 1.0     | WIP          |
+| [Heap sort](./_heap)                          | 1.0     | Implemented  |
 | [Merge sort](./_merge)                        | 1.0     | Not started  |
 | [Quick sort](./_heap)                         | 1.0     | Not started  |
 
