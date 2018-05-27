@@ -1,10 +1,10 @@
 # Heap sort
-Sorting algorithm, divides input into a sorted and an unsorted region and iteratively shrinks unsorted region by extracting largest element and moving that to sorted region.
+Sorting algorithm, works by creating a heap structure and sorting tree to have max value or minimum value at top of the tree. ONce a value at top is identified a new tree is formed excluding sorted element and re calculation is carried out.
 
 ## Steps
-- Pass array to identify minimum value
-- Move this value to left of unsorted elements in array.
-- i.e can be done by Swap unordered left item
+- generate maxHeap or minmumHeap
+- Start iterating over generated heap and sort element.
+- Swap values to have larges value in case of max heap and smallest for min heap in the tree
 - Repeat above steps till all elements are sorted.
 
 ## Performance
