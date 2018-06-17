@@ -17,7 +17,7 @@ A way to rearrange raw information (data) in orderly format.
 | [Insertion sort](./_sort/_insertion)          | 1.0     | Implemented  |
 | [Heap sort](./_heap)                          | 1.0     | Implemented  |
 | [Merge sort](./_merge)                        | 1.0     | Implemented  |
-| [Quick sort](./_quick)                        | 1.0     | Not started  |
+| [Quick sort](./_quick)                        | 1.0     | Implemented  |
 
 [See more about sort in _sort](./_sort)
 
