@@ -9,17 +9,16 @@
 
 
 const utils = require('../../_utils');
-const {lessOne, plusOne, logger, iterations, swaps} = utils;
+const {lessOne, plusOne, logger, iterations} = utils;
 
 let leftMostPivot = 0;
 
 // single time running - need to run n times
-let bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) => {
+let bubbleSort = (list, rightPointer = lessOne(list.length)) => {
 	let leftPointer = lessOne(rightPointer);
 
 	if (rightPointer && (list[leftPointer] > list[rightPointer])) {
 		 list.splice(leftPointer, 2, list[rightPointer], list[leftPointer]);
-		 swapped = true;
 	}
 
 	if(lessOne(list.length) <= plusOne(leftMostPivot)) {
@@ -28,7 +27,7 @@ let bubbleSort = (list, swapped = false, rightPointer = lessOne(list.length)) =>
 		leftMostPivot = plusOne(leftMostPivot);
 		return bubbleSort(list);
 	} else {
-		return bubbleSort(list, swapped, leftPointer);
+		return bubbleSort(list, leftPointer);
 	}
 }
 
